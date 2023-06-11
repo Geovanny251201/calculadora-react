@@ -1,0 +1,143 @@
+.btnNumeros{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border:none;
+    font-weight: bold;
+}
+.btnNumeros:hover{
+    transform: scale(1.05);
+}
+
+.contenedor-inputs{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(237, 238, 243, 0.916);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 0px 0px #a33df0;
+    background-color: #a977ef;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border:none;
+}
+.salida{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(237, 238, 243, 0.916);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 0px 0px #a33df0;
+    background-color: #a977ef;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border:none;
+}
+.salida:active{
+    border:none;
+}
+.salida-resultado{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(237, 238, 243, 0.916);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+   
+    background-color: #a977ef;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border:none;
+}
+
+.btnClear{
+    
+    background-color: rgb(227, 111, 111);
+    box-shadow: 0px 5px 0px 0px #a33df0;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btnOperations{
+    
+    background-color: rgb(209, 93, 237);
+    box-shadow: 0px 5px 0px 0px #a33df0;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin:3px;
+}
+.fondo{
+    background-size:cover ;
+    background-position: center;
+    width:100vw ;
+    height: 100vh;
+    overflow-x:hidden ;
+  
+}
+
+.btnStyle {
+    border: none;
+    outline: none;
+    background-color: #ff962d;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a33df0;
+  }
+  
+  .btnStyle:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  .calculator {
+    
+    border-radius: 0.375rem;
+    
+    
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .btnIgual{
+    background-color: rgb(7, 201, 95);
+    box-shadow: 0px 5px 0px 0px #a33df0;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .fondoCalculadora{
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo transparente con 50% de opacidad */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+   
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+  }
+  .filaMedio{
+    display: flex;
+  align-items: center;
+  height: 100vh; 
+  }
+
